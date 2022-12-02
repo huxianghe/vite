@@ -9,7 +9,6 @@ import MagicString from 'magic-string'
 import type { Plugin, RollupOptions } from 'rollup'
 import { defineConfig } from 'rollup'
 import licensePlugin from '../../scripts/rollupLicensePlugin.mjs'
-const a = 1
 
 const pkg = JSON.parse(
   readFileSync(new URL('./package.json', import.meta.url)).toString()
